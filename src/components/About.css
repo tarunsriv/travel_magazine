@@ -1,0 +1,62 @@
+.about{
+    width:100%;
+}
+
+.about__manifesto{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about__circle-svg{
+    width: 100%;
+    height: auto;
+}
+
+.about__circle-text {
+  font-family: var(--font-main);
+  font-size: 80px;
+  font-weight: 700;
+  fill: #214915;
+  text-transform: uppercase;
+
+}
+
+
+
+.about__story{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+.about__story-text{
+    font-family: var(--font-main);
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--lime);
+    max-width: 900px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.about__char{
+    color: var(--lime);
+    display: inline;
+    opacity: 0.2;
+}
+
+.about__word {
+    display: inline-flex;
+    margin-right: 0.3em;
+}
