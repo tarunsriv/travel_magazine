@@ -44,3 +44,11 @@
 .navbar--solid .navbar__links a {
   color: var(--black);
 }
+
+.navbar--dark .navbar__logo {
+  color: var(--black)
+}
+
+.navbar--dark .navbar__links a {
+  color: var(--black);
+}
