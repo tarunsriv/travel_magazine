@@ -4,6 +4,7 @@ import './Navbar.css'
 function Navbar() {
   const [solid, setSolid] = useState(true)
   const [navColor, setNavColor] = useState('light')
+  const [visible, setVisible] = useState(true)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,6 +17,8 @@ function Navbar() {
       const aboutStoryRect = aboutStory?.getBoundingClientRect()
       const exploreRect = explore?.getBoundingClientRect()
       const featuredRect = featured?.getBoundingClientRect()
+      const footerTop = document.querySelector('.footer')?.getBoundingClientRect().top || 0
+      setVisible(footerTop > 70)
 
       // solid navbar only over hero
       setSolid(heroBottom > 70)
@@ -42,7 +45,7 @@ function Navbar() {
   }, [])
 
   return (
-    <nav className={`navbar ${solid ? 'navbar--solid' : ''} ${navColor === 'dark' ? 'navbar--dark' : ''}`}>
+    <nav className={`navbar ${solid ? 'navbar--solid' : ''} ${navColor === 'dark' ? 'navbar--dark' : ''} ${!visible ? 'navbar--hidden' : ''}`}>
       <p className="navbar__logo">TOUR ME</p>
       <div className="navbar__links">
         <a href="#">Explore</a>

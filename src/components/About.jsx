@@ -68,7 +68,7 @@ function About() {
       </div>
 
       {/* Part B - Color transition text */}
-      <div className="about__story">
+      <div className="about__story" id="about">
         <p className="about__story-text" ref={storyRef}>
           {storyText.split(' ').map((word, wordIndex) => (
             <span key={wordIndex} className="about__word">

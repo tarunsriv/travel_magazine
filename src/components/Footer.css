@@ -1,0 +1,113 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cream);
+    padding: 60px 80px 40px 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 40%;
+  background: radial-gradient(ellipse at top left, rgba(188, 255, 72, 0.3) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: var(--dark-green);
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__connect-label {
+    font-family: var(--font-main);
+    font-size: 1rem;
+    color: var(--dark-green);
+    margin: 0 0 16px 0;
+}
+
+.footer__form {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.footer__form-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted var(--dark-green);
+    padding: 8px 0;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    color: var(--dark-green);
+    outline: none;
+    width: 180px;
+    -webkit-appearance: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.footer__form input::placeholder {
+    color: var(--dark-green);
+    opacity: 0.6;
+}
+
+.footer__submit {
+    background: transparent;
+    border: 1px dotted var(--dark-green);
+    padding: 8px 24px;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    color: var(--dark-green);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.footer__bottom {
+    position: relative;
+}
+
+.footer__year {
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    color: var(--dark-green);
+    opacity: 0.6;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer__heading {
+    font-family: var(--font-main);
+    font-size: 19vw;
+    font-weight: 700;
+    color: var(--dark-green);
+    margin: 0;
+    line-height: 0.85;
+    letter-spacing: -4px;
+}
+

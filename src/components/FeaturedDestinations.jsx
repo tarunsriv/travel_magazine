@@ -93,7 +93,7 @@ function FeaturedDestinations() {
 
 
     return (
-        <section className="featured" ref={sectionRef}>
+        <section className="featured" ref={sectionRef} id="explore">
 
             {/* heading - only shows once */}
             <h2 className="featured__section-heading" ref={headingRef}>Featured Destinations</h2>

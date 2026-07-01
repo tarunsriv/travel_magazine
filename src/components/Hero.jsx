@@ -59,7 +59,7 @@ function Hero() {
   }, [])
 
   return (
-    <section className="hero">
+    <section className="hero" id='home'>
       <img className="hero__image" src={heroImage} alt="Travel destination" />
       <h1 className="hero__heading" ref={headingRef}>TOUR ME</h1>
       <p className="hero__subtext" ref={subtextRef}>Find your next escape</p>
