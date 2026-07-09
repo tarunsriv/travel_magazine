@@ -1,10 +1,10 @@
-import mountains from '../assets/mountains.jpg'
-import beaches from '../assets/beaches.jpg'
-import culture from '../assets/culture.jpg'
-import wildlife from '../assets/wildlife.jpg'
-import adventure from '../assets/adventure.jpg'
-import luxury from '../assets/luxury.jpg'
-import solo from '../assets/solo.jpg'
+import mountains from '../assets/mountains.webp'
+import beaches from '../assets/beaches.webp'
+import culture from '../assets/culture.webp'
+import wildlife from '../assets/wildlife.webp'
+import adventure from '../assets/adventure.webp'
+import luxury from '../assets/luxury.webp'
+import solo from '../assets/solo.webp'
 
 const categories = [
     { id: 1, name: 'Mountains', image: mountains },

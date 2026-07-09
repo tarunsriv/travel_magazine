@@ -38,6 +38,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -49,4 +50,8 @@ body {
   background-color: #000;
   font-family: var(--font-main);
   padding-top: 70px;
+}
+
+img {
+  will-change: auto;
 }

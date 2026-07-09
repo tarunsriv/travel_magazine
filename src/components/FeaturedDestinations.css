@@ -8,6 +8,8 @@
 }
 
 .featured__strip {
+  will-change: transform;
+  transform: translateZ(0);
   display: flex;
   width: 500vw;
   height: 100vh;

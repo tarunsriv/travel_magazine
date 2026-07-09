@@ -31,7 +31,7 @@ function ExploreCategories() {
           currentIndex.current = index
         }
       })
-    }, { threshold: 0.1 })
+    }, { threshold: 0.3, rootMargin: '-10% 0px' })
 
     const zones = sectionRef.current.querySelectorAll('.explore__zone')
     zones.forEach(zone => observer.observe(zone))

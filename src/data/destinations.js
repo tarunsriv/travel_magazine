@@ -1,22 +1,22 @@
-import tawang1 from '../assets/tawang1.jpg'
-import tawang2 from '../assets/tawang2.jpg'
-import tawang3 from '../assets/tawang3.jpg'
+import tawang1 from '../assets/tawang1.webp'
+import tawang2 from '../assets/tawang2.webp'
+import tawang3 from '../assets/tawang3.webp'
 
-import ziro1 from '../assets/ziro1.jpg'
-import ziro2 from '../assets/ziro2.jpeg'
-import ziro3 from '../assets/ziro3.jpeg'
+import ziro1 from '../assets/ziro1.webp'
+import ziro2 from '../assets/ziro2.webp'
+import ziro3 from '../assets/ziro3.webp'
 
-import faroeIsland1 from '../assets/faroe_island.jpg'
-import faroeIsland2 from '../assets/faroe2.jpeg'
-import faroeIsland3 from '../assets/faroe3.jpeg'
+import faroeIsland1 from '../assets/faroe_island.webp'
+import faroeIsland2 from '../assets/faroe2.webp'
+import faroeIsland3 from '../assets/faroe3.webp'
 
-import socotra1 from '../assets/socotro1.jpg'
-import socotra2 from '../assets/scotra2.jpeg'
-import socotra3 from '../assets/scotra3.jpeg'
+import socotra1 from '../assets/socotro1.webp'
+import socotra2 from '../assets/scotra2.webp'
+import socotra3 from '../assets/scotra3.webp'
 
-import svaneti1 from '../assets/svaneti1.jpg'
-import svaneti2 from '../assets/svaneti2.jpeg'
-import svaneti3 from '../assets/svaneti3.jpeg'
+import svaneti1 from '../assets/svaneti1.webp'
+import svaneti2 from '../assets/svaneti2.webp'
+import svaneti3 from '../assets/svaneti3.webp'
 
 const destinations = [
     {

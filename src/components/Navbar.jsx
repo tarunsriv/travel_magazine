@@ -48,8 +48,8 @@ function Navbar() {
     <nav className={`navbar ${solid ? 'navbar--solid' : ''} ${navColor === 'dark' ? 'navbar--dark' : ''} ${!visible ? 'navbar--hidden' : ''}`}>
       <p className="navbar__logo">TOUR ME</p>
       <div className="navbar__links">
-        <a href="#">Explore</a>
-        <a href="#">About</a>
+        <a href="#explore">Explore</a>
+        <a href="#about">About</a>
       </div>
     </nav>
   )

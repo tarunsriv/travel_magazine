@@ -54,12 +54,13 @@ function FeaturedDestinations() {
         gsap.to(strip, {
             x: () => -(strip.scrollWidth - window.innerWidth),
             ease: 'none',
+            force3D: true,
             scrollTrigger: {
                 trigger: section,
                 start: 'top top',
                 end: () => `+=${strip.scrollWidth - window.innerWidth}`,
                 pin: true,
-                scrub: 1,
+                scrub: 0.5,
                 invalidateOnRefresh: true,
                 onUpdate: (self) => {
                     const newActive = Math.round(self.progress * (destinations.length - 1))
@@ -115,6 +116,7 @@ function FeaturedDestinations() {
                                     src={img}
                                     alt={dest.name}
                                     style={{ opacity: imgIndex === 0 ? 1 : 0 }}
+                                    loading="lazy"
                                 />
                             ))}
 
@@ -152,7 +154,7 @@ function FeaturedDestinations() {
                         className={`featured__indicator ${active === index ? 'featured__indicator--active' : ''}`}
                         onClick={() => handleDestinationChange(index)}
                     >
-                        <img src={dest.images[0]} alt={dest.name} />
+                        <img src={dest.images[0]} alt={dest.name} loading="lazy" />
                     </div>
                 ))}
             </div>
